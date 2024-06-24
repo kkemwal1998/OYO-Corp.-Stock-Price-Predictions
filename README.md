@@ -1,27 +1,36 @@
+
 Project Name: OYO Corp. VWAP Future Projections
 
 Project Objective:
 
-The project focuses on predicting the VWAP (Volume Weighted Average Price) of Oyo Rooms Corp. based on its previous seasonality patterns using the SARIMA Model.
+This project aims to predict the Volume Weighted Average Price (VWAP) of Oyo Rooms Corp. by analyzing its historical seasonal patterns using the SARIMA model.
 
-Database Name: OYO ROOM STOCK PRICES
-    
-Database Source: KAGGLE:- https://www.kaggle.com/datasets/mayankanand2701/oyo-stock-price-dataset/code
+Database Information:
+
+Name: OYO Room Stock Prices
+
+Source: Kaggle
 
 Model Process:
 
-a) Importing important libraries
+-Importing essential libraries
 
-b) Understanding the data
+-Understanding the dataset:Calculating the VWAP: VWAP = Cumulative(Volume x Typical Price) / Cumulative(Volume)
 
-c) Calculating the volume-weighted average price. [VWAP = Cumulative(Volume x Typical Price)/Cumulative(Volume)]
+-Extracting the trend from the dataset
 
-d) Extracting the trend from the dataset
+-Calculating Autocorrelation Function (ACF) and Partial Correlation Function (PCF)
 
-e) Calculating ACF (Autocorrelation Factor) and PCF (Partial Correlation Factor)
+-Identifying seasonality in the trend analysis
 
-f) Identifying the seasonality factor in the trend analysis
+-Training and testing the SARIMA (Seasonal Aggregated Integrated Moving Average) model
 
-g) Training and testing of the SARIMA (Seasonal Aggregated Integrated Moving Average) model of the dataset
+-Plotting future VWAP projections for 2024
 
-h) Plotting the VWAP for the future projections for 2024
+
+
+
+
+
+
+
