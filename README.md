@@ -1,5 +1,5 @@
 
-Project Name: OYO Corp. VWAP Future Projections
+# OYO Corp. VWAP Future Projections
 
 Project Objective:
 
